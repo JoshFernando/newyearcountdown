@@ -15,7 +15,7 @@ body {
   }
   .credits button {
 	/* Styles for the button itself */
-	padding: 15px 30px; /* Increase padding for a larger button */
+	padding: 30px 45px; /* Increase padding for a larger button */
 	border: none; /* Remove the default border */
 	background-color: #4CAF50; /* Button color, change as desired */
 	border-radius: 50%; /* Keep it rounded */
@@ -26,7 +26,7 @@ body {
 	/* Styles for the link inside the button */
 	text-decoration: none; /* Remove the underline from the link */
 	color: white; /* Text color for the link, change as desired */
-	font-size: 1.5em; /* Increase font size for larger text */
+	font-size: 3em; /* Increase font size for larger text */
 	font-weight: bold; /* Optional: make the font bold */
   }
   
