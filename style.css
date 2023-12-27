@@ -13,21 +13,23 @@ body {
 	left: 0;
 	display: none;
   }
-  .credits button {
-	/* Styles for the button itself */
-	padding: 30px 45px; /* Increase padding for a larger button */
-	border: none; /* Remove the default border */
-	background-color: #4CAF50; /* Button color, change as desired */
-	border-radius: 50%; /* Keep it rounded */
-	cursor: pointer; /* Change mouse cursor on hover */
+  
+  .credits {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	max-width: 250px;
+	padding: 10px;
+	z-index: 10;
+	text-align: right;
   }
   
-  .credits button a {
-	/* Styles for the link inside the button */
-	text-decoration: none; /* Remove the underline from the link */
-	color: white; /* Text color for the link, change as desired */
-	font-size: 3em; /* Increase font size for larger text */
-	font-weight: bold; /* Optional: make the font bold */
+  a {
+	display: block;
+	padding: 15px 0;
+	color: #1c9f1c;
+	text-decoration: underline;
+	font-size: 20px;
   }
   
   a:hover {
